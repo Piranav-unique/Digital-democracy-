@@ -1,0 +1,63 @@
+.content{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.s1{
+    margin-top: 10px;
+}
+.s1,.s2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 25px;
+
+}
+
+.s1 {
+    margin-bottom: 20px; /* Adjust the value to increase or decrease the space */
+    padding: 10px; /* Optional: adds inner padding within each div */
+}
+.s1 {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text */
+    width: 500px;
+}
+
+.content img {
+    width: 100px; /* Fixed width for images */
+    height: 100px; /* Fixed height for images */
+    border-radius: 50%; /* Circular images */
+    margin-bottom: 10px; /* Space below images */
+    margin-right: 50px;
+}
+.content p{
+    margin-right: 50px;
+    font-weight: bolder;
+
+}
+.content{
+    margin-left: 450px;
+}
+.content input[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger font size */
+}
+.content input[type="submit"]:hover {
+    background-color: #0056b3; 
+}
