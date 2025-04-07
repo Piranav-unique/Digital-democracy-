@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform:translate(-50%,50%);
+}
+.approved{
+    position: absolute;
+    bottom: 400px;
+    right: 100px;
+    height: 30%;
+    height: 30%;
+}
+.reason{
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+.box-container {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  width: 30%; 
+  height: 50%;
+  padding: 20px;
+  border: 4px solid rgb(225, 0, 255); 
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+
